@@ -36,14 +36,14 @@ void setup() {
   targetCamTarget = camTarget.copy();
 
   sun     = new Planet("sol.obj",      "sun.jpg",             90.0,  0,   0,      0.005, true);
-  mercurio = new Planet("mercurio.obj", "2k_mercury.jpg",     18.0,  140, 0.018,  0.015, false);
-  venus    = new Planet("venus.obj",    "2k_venus_surface.jpg", 20.5, 200, 0.013, 0.010, false);
-  earth    = new Planet("Earth.obj",    "earth.jpg",           30.0,  270, 0.007,  0.020, false);
-  mars     = new Planet("mars_2K.obj",  "mars.jpg",            20.8,  340, 0.005,  0.018, false);
-  jupiter  = new Planet("jupiter.obj",  "jupiter.jpeg",        58.0,  440, 0.004,  0.035, false);
-  saturn   = new Planet("Saturn.obj",   "Saturn_diff.jpg",     0.19, 530, 0.0030, 0.025, false);
-  uranus   = new Planet("uranus.obj",   "Uranus.jpg",          43.3,  610, 0.0024, 0.020, false);
-  neptune  = new Planet("neptuno.obj",  "2k_neptune.jpg",      41.01, 690, 0.0018, 0.018, false);
+  mercurio = new Planet("mercurio.obj", "2k_mercury.jpg",     18.0,  140, 0.0075,  0.015, false);
+  venus    = new Planet("venus.obj",    "2k_venus_surface.jpg", 20.5, 200, 0.0055, 0.010, false);
+  earth    = new Planet("Earth.obj",    "earth.jpg",           30.0,  270, 0.00375,  0.020, false);
+  mars     = new Planet("mars_2K.obj",  "mars.jpg",            20.8,  340, 0.003,  0.018, false);
+  jupiter  = new Planet("jupiter.obj",  "jupiter.jpeg",        58.0,  440, 0.0015,  0.035, false);
+  saturn   = new Planet("Saturn.obj",   "Saturn_diff.jpg",     0.19, 530, 0.001125, 0.025, false);
+  uranus   = new Planet("uranus.obj",   "Uranus.jpg",          43.3,  610, 0.00075, 0.020, false);
+  neptune  = new Planet("neptuno.obj",  "2k_neptune.jpg",      41.01, 690, 0.0006, 0.018, false);
 }
 
 void draw() {
