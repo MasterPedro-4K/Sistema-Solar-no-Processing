@@ -18,6 +18,7 @@ PGraphics ui;
 
 void settings() {
   size(displayWidth, displayHeight, P3D);
+  fullScreen();
 }
 
 void setup() {
